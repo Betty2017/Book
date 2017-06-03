@@ -1,4 +1,3 @@
-
 public class Book {
 	
 	private String bookTitle;
@@ -32,6 +31,11 @@ public class Book {
 		description = "Romantic" ;
 		price = 10;
 		inStock = "yes";
+	}
+	public Book(String theTitle,String theAutor, String theDescription){
+		 bookTitle=theTitle;
+		 autor=theAutor;
+		 description=theDescription;	
 	}
 	
 	public String  getDisplayText ()
